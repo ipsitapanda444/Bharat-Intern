@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- sniper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+    <!-- box icons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- header design  -->
+      <a href="#" class="logo">Portfolio</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About </a>
+        <a href="#skills">Skills </a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact </a>
+      </nav>
+
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section  -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello , This is</h3>
+        <h1>Ipsita Panda</h1>
+        <p>
+          A Web Developer Student passionate about the web 
+          designing
+        </p>
+
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+        </div>
+        <a href="#" class="btn">Download Resume</a>
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bxs-book"></i>
+            <h3>Student</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bxs-video-recording"></i>
+            <h3>Web Developer</h3>
+            <!-- style -->
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bxs-book"></i>
+            <h3>Student</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bxs-palette"></i>
+            <h3>Web Developer</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <div class="home-img">
+        <img src="ipsita.jpg" alt="Ipsita pic " />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="#" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>me</span></h2>
+        <h3>Bit About Me</h3>
+        <p>
+          I'm currently in my second year and have a keen interest in graphics and 
+          web development.
+          My passion lies in web development, and I am committed to
+          contributing to community projects and fostering growth in the
+          development space.
+          <br />
+
+          I'm passionate about coding! 🚀
+          <br />
+          I have a knack for fast learning and enjoy tackling new challenges
+          with enthusiasm. 💻🌟
+        </p>
+        <br />
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!-- services section  -->
+
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bxl-mysql"></i>
+          <h3>MYSQL</h3>
+          <p>
+            MySql is one of the most popular databases To understand the MySQL 
+            database, we must break down the underlying branches of tools it belongs: 
+            database management systems and SQL Tables!
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxl-html"></i>
+          <h3>HTML,CSS</h3>
+          <p>
+            Use your knowledge of HTML forms to collect input users and put a 
+            spin on a classic story With HTML you can create your own Website.
+            HTML is easy to learn !
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxl-R"></i>
+          <h3>JAVASCRIPT(Beginner)</h3>
+          <p>
+            JavaScript is one of the most popular modern web technologies! As your 
+            JavaScript skills grow, your websites will enter a new dimension of 
+            power and creativity!
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxl-R"></i>
+          <h3>R Language</h3>
+          <p>
+            R is a software environment for statistical computing and graphics. R is 
+            commonly used for Data Analysis, Statistical Computing, Machine Learning 
+            algorithms!
+          </p>
+          <a href="" class="btn" id="btn" onclick="readtext()">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section  -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">My <span>Portfolio</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="port7.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Socialmedia Platform</h4>
+            <p>
+                Inspiring and giving oppurtunities in different field for jobs
+            </p>
+            <a href="#"><i class="bx bx-plus-medical"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="port1.jpeg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Education and Projects</h4>
+            <p>
+                Studying and coding is a must being a computer science Engineer
+            </p>
+            <a href="#"><i class="bx bx-plus-medical"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="port11.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Dream</h4>
+            <p>
+                Fullfillment of dreams through hard work
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial section -->
+    <div class="testimonial-container">
+      <h2 class="heading">MY <span>Socials</span></h2>
+      <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
+              <i class="bx bxl-linkedin-square"> </i>
+
+              <h3>LinkedIn</h3>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <i class="bx bxl-instagram"></i>
+              <h3>Instagram</h3>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <i class="bx bxl-github"></i>
+              <h3>Github</h3>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-scrollbar"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact section  -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <div class="contact_container">
+        <div class="row">
+          <div class="section-title padd-15">
+          </div>
+        </div>
+        <h3 class="contact-title">Have You Any Questions ?</h3>
+        <h4 class="contact-sub-title">I'm AT YOUR SERVICES</h4>
+        <div class="row">
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="bx bxl-phone"></i></div>
+            <h4>Call Me</h4>
+            <p>0123456789</p>
+          </div>
+
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="bx bxl-map-marker-alt"></i></div>
+            <h4>Office</h4>
+            <p>Odisha</p>
+          </div>
+
+          <div class="contact-info-item ">
+            <div class="icon"><i class="bx bxl-envelope"></i></div>
+            <h4>Email</h4>
+            <p>info@gmail.com</p>
+          </div>
+
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="bx bxl-globe"></i></div>
+            <h4>Website</h4>
+            <p>jnfkvjdf.com</p>
+          </div>
+        </div>
+        <h3 class="contact-title padd-15">Send me an Email</h3>
+        <h4 class="contact-sub-title padd-15">I'll response</h4>
+      </div>
+    </section>
+
+    <!-- footer design  -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Ipsita Panda | All Rights Reserved</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="portfolio.js"></script>
+    <!-- sniper js  -->
+  </body>
+</html>
